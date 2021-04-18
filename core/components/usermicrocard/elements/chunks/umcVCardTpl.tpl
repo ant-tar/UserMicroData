@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:[[+fullname]]
+FN:[[+fullname]]
+[[+photo:notempty=`PHOTO;ENCODING=b;TYPE=JPEG:[[+photo]]`]]
+ADR;TYPE=work:;;[[+address]];[[+city]];[[+state]];[[+zip]];
+TEL;TYPE=WORK;TYPE=pref;TYPE=VOICE:[[+phone]]
+TEL;TYPE=WORK;TYPE=pref;TYPE=FAX:[[+fax]]
+EMAIL;TYPE=WORK:[[+email]]
+LANG:en
+ORG:[[+company]]
+URL;TYPE=WORK:[[+website]]
+END:VCARD
