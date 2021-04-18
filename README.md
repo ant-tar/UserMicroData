@@ -11,10 +11,10 @@ For now snippet loads next basic User Profile fields: `fullname`, `photo`, `addr
 
 ```
 [[!UserMicroData?
-    &uid=`123`
-    &companyName=`Tesla Motors`
-	&mode=`vCard`
-	&vName=`vCard.vcf`
+ &uid=`123`
+ &companyName=`Tesla Motors`
+ &mode=`vCard`
+ &vName=`vCard.vcf`
 ]]
 ```
 
@@ -32,10 +32,10 @@ Package provides additional `VCF` Content Type from the box, for the page where 
 Default MODX tags
 ```
 [[!UserMicroData?
-    &uid=`123`
-    &companyName=`Virgin`
-	&mode=`hCard`
-	&toPlaceholder=`userHCardPlaceholder`
+ &uid=`123`
+ &companyName=`Virgin`
+ &mode=`hCard`
+ &toPlaceholder=`userHCardPlaceholder`
 ]]
 ```
 
