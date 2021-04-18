@@ -3,8 +3,6 @@
 
 Displaying user data in one of two popular micro formats - [vCard](https://en.wikipedia.org/wiki/VCard) or [hCard](http://microformats.org/wiki/hcard)
 
-[hCard](http://microformats.org/wiki/hcard)
-
 For now snippet loads next basic User Profile fields: `fullname`, `photo`, `address`, `city`, `zip`, `state`, `phone`, `fax`, `email`, `website`, `country`, process them and wrap in appropriate form according to micro format RFC's.
 
 ## Example snippet call for vCard output
